@@ -1,0 +1,97 @@
+body,
+p {
+    box-sizing: border-box;
+    color: #000000;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    margin: 0 0 40px;
+    font-family: francois_one;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.container {
+    margin: 0 0 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.chapter {
+    font-family: farro;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: none;
+}
+
+.text-holder {
+    font-family: pt_sans;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+
+.header {    
+    padding: 13px 120px 83px;  
+}
+
+.main,
+.container-header {
+    margin: 0 120px;
+    max-width: 1200px;
+}
+
+.container-header {
+    margin: 13px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+ }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;    
+    justify-content: space-between;
+}
+
+
+.nav-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    justify-content: start;
+    font-family: staatliches;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.nav-slesh {
+    padding: 0 10px;
+}
+
+.eng {    
+    font-family: tourney;
+    font-size: 22px;
+    line-height: 18px;   
+}
+
+a {
+    color: black;    
+}
+
+.text-holder p{
+    padding-bottom: 40px;
+}
+
+
+
